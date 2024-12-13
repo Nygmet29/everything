@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 2.8rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+.introduction p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.content h2, .comments-section h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5rem;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+p, ul, ol {
+    margin-bottom: 1.5rem;
+}
+
+ul, ol {
+    padding-left: 2rem;
+}
+
+blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border-left: 4px solid #000;
+    background: #f9f9f9;
+    font-style: italic;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Comments Section */
+.comments-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    margin-top: 2rem;
+}
